@@ -1,5 +1,7 @@
 ---
 name: "lhg_deep_research"
+slug: "lhg-deep-research"
+displayName: "深度调研"
 description: "深度调研：输入一个主题，按多源检索→热度排名→作者深挖→需求提炼→功能分类→复刻/超越方案的流程，输出结构化中文调研报告。"
 ---
 
