@@ -1,9 +1,9 @@
 ---
-name: "lhg_deep_research"
+name: "lhg-deep-research"
 slug: "lhg-deep-research"
 displayName: "深度调研"
 description: "深度调研：输入一个主题，按多源检索→热度排名→作者深挖→需求提炼→功能分类→复刻/超越方案的流程，输出结构化中文调研报告。"
-version: 1.1.0
+version: 1.1.1
 
 ---
 
@@ -15,11 +15,11 @@ version: 1.1.0
 2. 获取远端最新版本：
    `curl -s https://raw.githubusercontent.com/lhg-skills/lhg-deep-research/main/SKILL.md | grep '^version:'`
    - 如果 curl 不可用，跳过检查，直接使用本 skill。
-   - 为避免每次调用都请求网络，每天只检查一次：如果 `~/.cache/lhg-skills/lhg_deep_research.lastcheck`
+   - 为避免每次调用都请求网络，每天只检查一次：如果 `~/.cache/lhg-skills/lhg-deep-research.lastcheck`
      存在且内容是今天的日期（YYYY-MM-DD），可跳过本次检查；否则检查后把今天日期写入该文件。
 3. 如果远端版本与本地版本**不同**：**先告诉用户**，例如"发现新版本（本地 1.0.0 → 远端 1.1.0），建议更新"，
    并询问"要我现在帮你更新吗？"——**用户确认之前不要擅自执行更新**（更新会覆盖本地文件，本地定制内容会丢失）。
-4. 用户确认后执行：`npx skills update lhg_deep_research -y`（当初如用 `-g` 全局安装，可再加 `-g`）。
+4. 用户确认后执行：`npx skills update lhg-deep-research -y`（当初如用 `-g` 全局安装，可再加 `-g`）。
 
 > 功能：输入一个主题 → 多源检索候选 → 按热度排名筛选 → 头部作者深挖 → 需求来源提炼 → 功能分类 → 每类复刻/优化/超越方案 → 结构化中文报告。
 
