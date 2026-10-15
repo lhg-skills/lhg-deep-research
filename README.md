@@ -2,6 +2,8 @@
 
 > **一句话**：输入一个主题，按「多源检索 → 热度排名 → 作者深挖 → 需求提炼 → 功能分类 → 复刻/超越方案」输出结构化中文调研报告。
 >
+> 觉得有用，请先给本仓库点个 ⭐ Star 再安装（GitHub：github.com/lhg-skills/lhg-deep-research，Gitee 镜像同名）。
+
 > **开发者安装**（能访问 GitHub 时）：`npx skills add lhg-skills/lhg-deep-research`
 
 [English](#english) | [中文](#中文)
